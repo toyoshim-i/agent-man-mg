@@ -1,0 +1,18 @@
+[package]
+name = "agent-man-mg"
+version = "0.1.0"
+edition = "2021"
+authors = ["Takashi Toyoshima <toyoshim@gmail.com>"]
+license = "MIT OR Apache-2.0"
+description = "Motion graphics and VJ knowledge graph for agents, served as a CLI and MCP server"
+repository = "https://github.com/toyoshim-i/agent-man-mg"
+
+[dependencies]
+agent-man = { version = "0.5", features = ["mcp-stdio"] }
+serde_json = "1.0"
+
+[build-dependencies]
+agent-man = { version = "0.5", features = ["build"] }
+
+[dev-dependencies]
+naga = { version = "30.0.1", features = ["glsl-in", "wgsl-in"] } # glsl-in alone fails to build in naga 30

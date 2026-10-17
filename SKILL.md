@@ -1,0 +1,136 @@
+---
+name: agent-man-mg
+description: Motion graphics and VJ craft knowledge. Use before designing, animating, writing shaders or critiquing visuals. Run `agent-man-mg guide start` and follow it.
+---
+
+# agent-man-mg
+
+Run `agent-man-mg guide` to browse available documentation and topics.
+
+## Available Topics
+
+### Start here
+- **start**: Use when beginning any motion graphics, VJ, title, logo or generative visual task. The step-by-step procedure; follow it in order. (`agent-man-mg guide start`)
+
+### Process (follow in order)
+- **brief**: Use when a request arrives. Turns it into a spec with format, duration, medium, audience, purpose and three mood words. (`agent-man-mg guide brief`)
+- **concept**: Use when the spec is written and you need the idea. Take ways of thinking from earlier work, hold them against today's conditions, and keep the idea that only makes sense now. (`agent-man-mg guide concept`)
+- **design-sheet**: Use when the concept is chosen. Fixes palette, type, shape language, motion language and texture as numbers before any build. (`agent-man-mg guide design-sheet`)
+- **structure**: Use when the design sheet is done. Plans time - sections, energy curve and a timing chart in seconds - before building. (`agent-man-mg guide structure`)
+- **build**: Use when the timing chart is written and you start coding. The build order and code layout that keep a piece tunable. (`agent-man-mg guide build`)
+- **review**: Use when a pass is built. Mechanical checks on rendered frames or on the code, each mapped to an explain symptom with a fix. (`agent-man-mg guide review`)
+
+### Phase 1: finding the idea
+- **ideas**: Use when finding the idea in the Concept step. Index of the ways of thinking behind representative motion graphics, music video, animation and VJ work, each listed by the question it answered. (`agent-man-mg guide ideas`)
+- **now**: Use when transposing an idea in the Concept step. The forces that shape visual work today - what each made free, what it made scarce, and what audiences now read into images. (`agent-man-mg guide now`)
+
+### Ways of thinking (Phase 1, pick by the question)
+- **body-and-machine**: Use when the piece involves dance, performance, motion capture, tracking or live shows. The idea of a human body and a machine performing together, with the friction between them as content. (`agent-man-mg guide body-and-machine`)
+- **character-as-vessel**: Use when the piece involves a character, mascot, avatar, virtual singer or VTuber. The idea of a character designed with deliberate emptiness so that many people can fill it with their own stories. (`agent-man-mg guide character-as-vessel`)
+- **constraint-as-style**: Use when a brief has tight limits (time, budget, size, format) or the piece needs a strong signature. The idea that a limitation, accepted fully, becomes a style - from limited animation and Flash to tiny demos and one-illustration videos. (`agent-man-mg guide constraint-as-style`)
+- **cut-on-the-beat**: Use when a piece is built from many shots or scenes. The idea that the cut itself is a rhythmic instrument, from music television and anime openings to short-video templates. (`agent-man-mg guide cut-on-the-beat`)
+- **data-sublime**: Use when the brief involves data, technology, science or scale, or the piece should overwhelm. The idea that something too large to grasp can be felt through extreme density, speed and precision. (`agent-man-mg guide data-sublime`)
+- **identity-as-system**: Use when making brand idents, logo animation, channel identity or a series. The idea that an identity is a set of rules that produces endless variations, not a fixed picture. (`agent-man-mg guide identity-as-system`)
+- **in-camera-truth**: Use when the piece should feel real, handmade or trustworthy, or when the brief fears looking generated. The idea that an image proves it really happened - one-takes, practical tricks, handmade processes. (`agent-man-mg guide in-camera-truth`)
+- **instrument-as-actor**: Use when a music video or live visual should make a song's arrangement visible. The idea of casting each instrument or musical layer as a character, object or place. (`agent-man-mg guide instrument-as-actor`)
+- **live-as-instrument**: Use when visuals are performed live - VJ sets, audiovisual concerts, live coding. The idea that visuals are played in the moment, not played back, and that the performance and its risk are visible. (`agent-man-mg guide live-as-instrument`)
+- **loop-as-form**: Use when making loops, GIFs, social clips, cinemagraphs or VJ clips. The idea of a work with no beginning or end, from pre-cinema devices to GIFs, six-second videos and VJ loops. (`agent-man-mg guide loop-as-form`)
+- **lyrics-as-stage**: Use when making a music video with lyrics, a lyric video, or a Vocaloid or J-pop style MV. The idea that the words of the song are the main visual, from Vocaloid videos on Niconico to mainstream lyric MVs. (`agent-man-mg guide lyrics-as-stage`)
+- **ma**: Use when a piece feels crowded, when the brief is calm, premium, Japanese or contemplative, or when impact needs space. The idea that the empty interval in time or space is itself the expression. (`agent-man-mg guide ma`)
+- **math-is-the-image**: Use when making shader art, generative 3D or demoscene-style work. The idea that a formula made visible is the picture - from the demoscene's tiny real-time films to shader art communities. (`agent-man-mg guide math-is-the-image`)
+- **rule-as-work**: Use when making generative, procedural or algorithmic art, or variations of one design. The idea that the artwork is the rule and each image is one of its outcomes. (`agent-man-mg guide rule-as-work`)
+- **screen-dissolves**: Use when visuals go onto architecture, stages, LED structures, immersive rooms or unusual surfaces. The idea that the image leaves the rectangle and becomes space - from expanded cinema to projection mapping and anamorphic billboards. (`agent-man-mg guide screen-dissolves`)
+- **see-the-sound**: Use when a piece is driven by music, or the brief asks for abstraction. The idea that image and sound can be one score, from abstract film to harmonic computer animation. (`agent-man-mg guide see-the-sound`)
+- **stillness-as-motion**: Use when motion feels weak, busy or weightless, or the piece needs impact. The idea from Japanese limited animation that holds, anticipation and timing contrast make motion strong - tame, tome and stepped timing. (`agent-man-mg guide stillness-as-motion`)
+- **the-medium-shows**: Use when the brief asks for glitch, retro, VHS, pixel or analog looks, or when the piece is about technology. The idea that a medium's own flaws and textures are content - and the reason behind each. (`agent-man-mg guide the-medium-shows`)
+- **the-screen-decides**: Use when the piece is made for a specific platform or surface - social feed, comment-overlay video, phone, billboard, web widget. The idea that where a work is watched shapes what it is. (`agent-man-mg guide the-screen-decides`)
+- **title-as-essence**: Use when making a title sequence, opening, logo sting or intro. The idea that an opening compresses the core of the whole work into one symbol, rather than listing credits or previewing scenes. (`agent-man-mg guide title-as-essence`)
+- **transition-as-meaning**: Use when a piece moves between scenes, states, places or times. The idea that the cut or transition between two images states a relationship - match cuts across time, reality and memory. (`agent-man-mg guide transition-as-meaning`)
+- **type-as-image**: Use when text appears and the piece should feel designed rather than captioned. The idea that letters are seen before they are read, from poster typography to anime title cards. (`agent-man-mg guide type-as-image`)
+- **work-as-node**: Use when the piece belongs to a community, fandom, remix or participatory culture. The idea that a work is made to be continued by others - covers, remixes, fan videos, open data. (`agent-man-mg guide work-as-node`)
+- **world-across-media**: Use when a piece is part of a series, franchise, album, brand world or story told across formats. The idea that one world lives across song, video, story and character, and each work is an entrance to it. (`agent-man-mg guide world-across-media`)
+
+### Principles
+- **arcs**: Use when something travels across the frame. Paths should curve, spacing should follow the ease, and direction should continue between shots. (`agent-man-mg guide arcs`)
+- **camera**: Use when the frame itself moves or needs depth. Push, orbit, parallax ratios, shake on impacts, and focus, with amounts. (`agent-man-mg guide camera`)
+- **color**: Use when choosing or mixing colors. Value structure first, then hue and chroma budgets in OKLCH, area ratios, and how to blend without mud. (`agent-man-mg guide color`)
+- **composition**: Use when placing elements in the frame. Grids, thirds, negative space, safe areas and aspect-ratio rules, with numbers. (`agent-man-mg guide composition`)
+- **easing**: Use when any value changes between two states. Which curve for entrances, exits and moves, the cubic-bezier numbers, springs, and the code. (`agent-man-mg guide easing`)
+- **energy**: Use when a piece feels flat or tiring. Plan an energy curve, use rest to make peaks land, and vary density, speed and brightness over time. (`agent-man-mg guide energy`)
+- **finish**: Use when the piece works but looks cheap, digital or flat. The finishing pass - linear color, tonemap, bloom, grain, vignette, dither - with amounts. (`agent-man-mg guide finish`)
+- **hierarchy**: Use when deciding what the viewer looks at first. The order of attention, one star per moment, and how to demote everything else. (`agent-man-mg guide hierarchy`)
+- **loops**: Use when a piece must loop (VJ clips, social loops, backgrounds). Loop length, periodic time, looping noise, and the seam test. (`agent-man-mg guide loops`)
+- **overlap**: Use when motion looks stiff or robotic. Offsets between parts, settles after stops, wind-ups before big moves, and stagger for groups. (`agent-man-mg guide overlap`)
+- **rhythm**: Use when visuals follow music or a beat. Beat math, which events land on which beat, phrase structure, and accents versus constant motion. (`agent-man-mg guide rhythm`)
+- **timing**: Use when choosing how long any move, hold or pause lasts. Durations by element size, read times for text, and the frame math. (`agent-man-mg guide timing`)
+- **transitions**: Use when moving from one scene, state or clip to the next. Which transition for which reason, durations, and how to make it motivated. (`agent-man-mg guide transitions`)
+- **typography**: Use when text appears on screen. Sizes, tracking, line length, how to reveal and exit text, and what never to animate. (`agent-man-mg guide typography`)
+
+### Reference tables (numbers)
+- **bpm**: Use when timing visuals to music. Beat, bar and phrase lengths in seconds and frames for common tempos and genres. (`agent-man-mg guide bpm`)
+- **durations**: Use when you need a number for how long something takes. One table of durations, offsets and holds by event type. (`agent-man-mg guide durations`)
+- **mood-map**: Use when turning mood words into parameters. Each mood gives speed, easing, palette, density, shapes, texture, camera and type as numbers. (`agent-man-mg guide mood-map`)
+- **palettes**: Use when you need a tested palette. Twelve four-color sets with roles, OKLCH values and the mood each fits. (`agent-man-mg guide palettes`)
+- **type-pairings**: Use when choosing typefaces. Free fonts (Google Fonts) by mood, with display and support pairings, weights and tracking. (`agent-man-mg guide type-pairings`)
+
+### Looks (coherent style bundles)
+- **brutal-type**: Use when the brief is loud, raw, streetwear, club flyer, protest or fashion. Huge cropped type, mono plus one acid color, hard cuts on the beat. (`agent-man-mg guide brutal-type`)
+- **chrome-liquid**: Use when the brief is futuristic, luxury tech, Y2K, fashion or product launch. Reflective blobs and type, environment-mapped highlights, slow morphing. (`agent-man-mg guide chrome-liquid`)
+- **crt-vhs**: Use when the brief is retro, nostalgic, 80s or 90s, lo-fi, analog or arcade. Scanlines, phosphor glow, chroma bleed, tracking wobble and lifted blacks. (`agent-man-mg guide crt-vhs`)
+- **ink-paper**: Use when the brief is handmade, editorial, literary, Japanese, children's or craft. Paper grain, ink bleed edges, risograph misregistration, stepped frame rates. (`agent-man-mg guide ink-paper`)
+- **neon-grid**: Use when the brief is synthwave, retro-future, cyber, gaming or euphoric club. Glowing lines on dark, perspective grids, sun discs, magenta and cyan, with tonemapped light. (`agent-man-mg guide neon-grid`)
+- **op-art**: Use when the brief is hypnotic, techno, minimal, scientific or optical. Black and white repetition, moire, concentric rings and line fields with slow phase motion. (`agent-man-mg guide op-art`)
+- **organic-flow**: Use when the brief is natural, calm, wellness, ambient, generative or deep house. Domain-warped fields, ink and smoke, soft light, slow breathing motion. (`agent-man-mg guide organic-flow`)
+- **swiss**: Use when the brief is precise, corporate, editorial, architectural or typographic. Grid, flat color, big sans type, hard cuts and expo easing. (`agent-man-mg guide swiss`)
+
+### Recipes (code)
+- **audio-reactive**: Use when visuals respond to sound. Frequency bands, envelope followers with attack and release, auto-gain, kick onset detection, and mapping amounts. (`agent-man-mg guide audio-reactive`)
+- **feedback**: Use when you want trails, echoes, smears or infinite-zoom tunnels. A self-reading buffer with decay, transform and frame-rate independence. (`agent-man-mg guide feedback`)
+- **glitch**: Use when a piece calls for digital corruption. Block displacement, RGB split and scanlines gated into short bursts, so glitch stays an accent. (`agent-man-mg guide glitch`)
+- **kinetic-type-code**: Use when animating text in a browser. A self-contained HTML template with mask-rise lines, word and letter stagger, holds and exits, and a frozen-time mode for review. (`agent-man-mg guide kinetic-type-code`)
+- **noise**: Use when you need organic texture, flow, smoke, terrain or variation. Hashes, gradient noise, fbm with rotated octaves, domain warping, ridges, and their parameters. (`agent-man-mg guide noise`)
+- **palette-code**: Use when coloring in a shader. Hex to linear, OKLab conversion and mixing, gradient maps from palette stops, and constrained cosine palettes. (`agent-man-mg guide palette-code`)
+- **particles**: Use when you need dust, sparks, swarms or flowing lines. A curl-noise flow field that never clumps, size and opacity distributions, trails, and counts. (`agent-man-mg guide particles`)
+- **post-chain**: Use when applying the finish pass in a multi-pass shader. Lens chromatic aberration, bloom, exposure, ACES tonemap, grade, vignette, sRGB, grain and dither in the right order. (`agent-man-mg guide post-chain`)
+- **raymarch**: Use when a shader needs 3D forms. A minimal sphere-tracer with camera, normals, soft shadows, ambient occlusion, three-light shading and fog, with budgets. (`agent-man-mg guide raymarch`)
+- **repetition**: Use when drawing many copies - grids, tiles, rings, radial patterns. Domain repetition with per-cell variation, polar repetition, and limits. (`agent-man-mg guide repetition`)
+- **sdf-2d**: Use when drawing shapes in a shader. Signed distance primitives, booleans, smooth blends, outlines, glow and anti-aliasing. (`agent-man-mg guide sdf-2d`)
+- **shader-frame**: Use when writing any fragment shader. A template with aspect-correct coordinates, pixel-width anti-aliasing, linear color, vignette, grain and dither already right. (`agent-man-mg guide shader-frame`)
+- **timeline**: Use when turning a timing chart into shader or JS code. Segment helpers, in-hold-out envelopes, beat-locked times, and deterministic time for frame capture. (`agent-man-mg guide timeline`)
+
+### VJ and live performance
+- **vj-controls**: Use when exposing parameters for live performance. Which 4 to 8 macros to expose, safe ranges so no knob position looks bad, smoothing and triggers. (`agent-man-mg guide vj-controls`)
+- **vj-layers**: Use when compositing several live layers. Base, mid and top roles, blend modes and what each is for, opacity ranges, and the one-busy-layer rule. (`agent-man-mg guide vj-layers`)
+- **vj-performance**: Use when a shader or scene must run live without dropping frames. Frame budgets, the cheapest fixes in order, resolution scaling, and what to measure. (`agent-man-mg guide vj-performance`)
+- **vj-projection**: Use when visuals go to a projector, LED wall or venue screen. What survives - contrast, line width, black levels, brightness, resolution and mapping margins. (`agent-man-mg guide vj-projection`)
+- **vj-safety**: Use when any visual flashes, strobes, inverts or shows high-contrast stripes. Photosensitive limits (3 flashes per second, red flashes, patterns) and a limiter. (`agent-man-mg guide vj-safety`)
+- **vj-set**: Use when planning live visuals for a set or a night. Energy arc over hours, clip library by energy level, when to change, and what to save for the peak. (`agent-man-mg guide vj-set`)
+- **vj-sync**: Use when locking live visuals to a DJ or band. Tempo sources (Link, MIDI clock, tap), phase and downbeat alignment, latency compensation and quantized triggers. (`agent-man-mg guide vj-sync`)
+
+### Worked examples (brief to finished code)
+- **example-kinetic-quote**: Use when animating a quote, slogan, lyric or message as kinetic typography. A complete worked example with two cards, an accent word, a secondary rule line and frozen-time capture. (`agent-man-mg guide example-kinetic-quote`)
+- **example-logo-sting**: Use when making a logo sting, logo reveal or title resolve. A complete worked example from brief to finished shader, including the review rounds. (`agent-man-mg guide example-logo-sting`)
+- **example-vj-loop**: Use when making a beat-synced VJ loop or ambient live visual. A complete worked example of a seamless 8-bar hypnotic loop with kick response, breath and accent. (`agent-man-mg guide example-vj-loop`)
+
+### Critique: symptom to fix (use `explain`)
+- **aliasing**: Use when edges look jagged or stair-stepped, thin lines flicker or crawl, or fine patterns shimmer and moire when moving. (`agent-man-mg explain aliasing`)
+- **banding**: Use when smooth gradients, vignettes, fog or glows show visible steps or contour lines, especially in dark areas. (`agent-man-mg explain banding`)
+- **cheap-noise**: Use when a noise texture looks blobby, gray, grid-aligned, like a default Perlin demo, or slides like a scrolling texture. (`agent-man-mg explain cheap-noise`)
+- **everything-moves**: Use when the frame feels chaotic or tiring, the eye does not know where to go, or many elements animate at the same moment. (`agent-man-mg explain everything-moves`)
+- **floaty**: Use when motion has no weight - things drift to a stop, hover, never land, or bounce without settling. (`agent-man-mg explain floaty`)
+- **jitter**: Use when audio-reactive values flicker, twitch every frame, react to noise, or pump unevenly with the music. (`agent-man-mg explain jitter`)
+- **linear-motion**: Use when motion looks robotic, cheap or computer-generated, or values ramp at constant speed between states. (`agent-man-mg explain linear-motion`)
+- **loop-seam**: Use when a looping clip jumps, pops or hitches at the loop point, or motion reverses direction at the seam. (`agent-man-mg explain loop-seam`)
+- **mechanical-stagger**: Use when a group animates like a machine - identical gaps, identical moves, a perfect wave - and looks computer-generated. (`agent-man-mg explain mechanical-stagger`)
+- **monotony**: Use when the piece is flat, boring or tiring over time, never builds, or has no moment that lands. (`agent-man-mg explain monotony`)
+- **muddy-palette**: Use when colors look dirty, gray, brown or incoherent, gradients pass through gray, or there are too many hues. (`agent-man-mg explain muddy-palette`)
+- **no-focal-point**: Use when a frame has no clear subject, the thumbnail is unreadable, or everything has the same weight. (`agent-man-mg explain no-focal-point`)
+- **over-effected**: Use when the piece looks like a filter demo - glow, blur, chromatic aberration, glitch, grain and distortion all visible at once, or the concept is buried. (`agent-man-mg explain over-effected`)
+- **oversaturated**: Use when colors burn, vibrate, look like defaults (pure red, green, blue), or the frame is tiring to look at. (`agent-man-mg explain oversaturated`)
+- **popping**: Use when elements appear or disappear in a single frame with no transition, or snap between states. (`agent-man-mg explain popping`)
+- **static-composition**: Use when the layout feels dead, centered, evenly spread or like a template, or squinting shows no clear shapes. (`agent-man-mg explain static-composition`)
+- **strobe-risk**: Use when the frame flashes, inverts, strobes or flickers brightly, or shows moving high-contrast stripes over large areas. (`agent-man-mg explain strobe-risk`)
+- **too-fast**: Use when motion is frantic, hard to follow, or ambient elements rush across the frame. (`agent-man-mg explain too-fast`)
+- **unreadable-type**: Use when text is hard to read - too small, too thin, too fast, low contrast, over busy backgrounds, or moving while being read. (`agent-man-mg explain unreadable-type`)
+- **washed-out**: Use when the image looks gray, foggy or flat on a projector or after export, shadows vanish, or blacks are lifted by accident. (`agent-man-mg explain washed-out`)
+
